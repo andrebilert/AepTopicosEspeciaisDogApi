@@ -1,0 +1,97 @@
+/* Define estilos globais */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos para o logotipo */
+img {
+  margin-bottom: 20px;
+}
+
+/* Estilos para o formulário */
+.search {
+  margin-bottom: 20px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.search-button:hover {
+  background-color: #3e8e41;
+}
+
+/* Estilos para o botão de salvar */
+#save-button {
+  padding: 10px 20px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#save-button:hover {
+  background-color: #006080;
+  
+}
+
+/* Estilos para a seção do cachorro */
+.dog {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+#dog-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/*Efeito de transição da imagem do cachorro*/
+.fade-in {
+  animation: fadeIn ease 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
